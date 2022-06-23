@@ -7,11 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.3.1</version>
-</plugin>
+ 
 
   <dependencies>
     <dependency>
@@ -32,4 +28,9 @@
   <build>
     <finalName>MyWebApp</finalName>
   </build>
+   <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.1</version>
+</plugin>
 </project>
